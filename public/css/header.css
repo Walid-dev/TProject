@@ -1,0 +1,223 @@
+/** Header Nav CSS **/
+
+#navHeader {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links a,
+.nav-links button,
+.dropdown-menu li a,
+.dropdown-menu li button {
+    font-family: "Saira Condensed", sans-serif;
+    color: #e5e5e5;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav_link_box {
+    padding: 4px 22px;
+    border-radius: 2rem;
+    transition: 0.15s linear;
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.nav_section_link {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link_box:hover,
+#menuLink:hover {
+    background: #494a4b5d;
+}
+
+#logoutForm {
+    padding: 4px;
+}
+
+.nav_section_link img,
+#menuLink img,
+#dropdownMenu2 img,
+.dropdown-item img {
+    width: 21px !important;
+}
+
+#dropdownMenu2 {
+    display: flex;
+    align-items: center;
+    transition: 0.25s linear;
+    -webkit-transition: 0.25s linear;
+    -moz-transition: 0.25s linear;
+    -ms-transition: 0.25s linear;
+    -o-transition: 0.25s linear;
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(rgb(34, 34, 34) 1%, rgb(4, 4, 4) 100%);
+    color: #e5e5e5;
+    width: 200px;
+}
+
+.dropdown-menu.show {
+    display: block;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transform: translate3d(0px, 40px, 0px);
+    -webkit-transform: translate3d(0px, 40px, 0px);
+    -moz-transform: translate3d(0px, 40px, 0px);
+    -ms-transform: translate3d(0px, 40px, 0px);
+    -o-transform: translate3d(0px, 40px, 0px);
+}
+
+#menuLink {
+    background: transparent;
+    padding: 4px 22px;
+    border-radius: 2rem;
+    transition: 0.15s linear;
+    border: none;
+    display: flex;
+    align-items: center;
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.dropdown-menu li {
+    padding: 4px;
+}
+
+.dropdown-item:hover,
+.dropdown-menu li:hover {
+    color: #e5e5e5;
+    background: transparent;
+    text-decoration: underline;
+    transition: 0.25s linear;
+    -webkit-transition: 0.25s linear;
+    -moz-transition: 0.25s linear;
+    -ms-transition: 0.25s linear;
+    -o-transition: 0.25s linear;
+}
+
+.logout-btn {
+    color: #e5e5e5;
+    padding: 4px;
+}
+
+#pauseHeaderVideo {
+    opacity: 0.4;
+}
+
+#headerBtnBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 160px;
+    position: absolute;
+    bottom: 30vh;
+    margin: 0 auto;
+}
+
+#playHeaderVideo {
+    display: none;
+}
+
+#btnLogin {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    border: none;
+    background: transparent;
+    height: 8vh;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+#dropdownSmallScreen {
+    display: none;
+}
+
+#logo,
+.logo {
+    padding: 6px 12px;
+}
+
+.part1 {
+    padding: 0;
+}
+
+/** Header Banner **/
+
+.banner {
+    position: absolute;
+    padding: 8vh 0;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner h2 {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000d9;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 90vh;
+    mix-blend-mode: darken;
+}

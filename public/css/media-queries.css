@@ -1,0 +1,386 @@
+@media screen and (max-width: 868px) {
+    .container {
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 0 5px;
+    }
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: url("../images/cn-tower-cursor.png"), pointer;
+        right: 5%;
+        top: 50%;
+        z-index: 1;
+        transform: translate(-5%, -50%);
+        -webkit-transform: translate(-5%, -50%);
+        -moz-transform: translate(-5%, -50%);
+        -ms-transform: translate(-5%, -50%);
+        -o-transform: translate(-5%, -50%);
+    }
+
+    .banner h2 {
+        font-size: 6.4vh;
+    }
+
+    #btnLogin2 {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        z-index: 1;
+        transform: translate(-5%, -50%);
+        -webkit-transform: translate(-5%, -50%);
+        -moz-transform: translate(-5%, -50%);
+        -ms-transform: translate(-5%, -50%);
+        -o-transform: translate(-5%, -50%);
+    }
+
+    #dropdownSmallScreen {
+        display: block;
+        transition: 0.35s ease;
+        position: fixed;
+        z-index: 10000;
+        left: 20px;
+        line-height: 8vh;
+        top: 0;
+        -webkit-transition: 0.35s ease;
+        -moz-transition: 0.35s ease;
+        -ms-transition: 0.35s ease;
+        -o-transition: 0.35s ease;
+    }
+
+    #dropdownSmallScreen #menuLink2 {
+        padding: 0 10px;
+        color: #e5e5e5;
+        background: transparent;
+        border: none;
+    }
+
+    #dropdownNavbar {
+        display: none;
+    }
+
+    #logo_link {
+        margin-right: 0;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: rgb(20, 20, 20);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 90% -10%);
+        transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -ms-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        pointer-events: none;
+    }
+
+    .nav-links.open {
+        clip-path: circle(1100px at 80% -10%);
+        -webkit-clip-path: circle(1100px at 90% -10%);
+        pointer-events: none;
+    }
+
+    .nav_section_link {
+        pointer-events: all;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links li a {
+        font-size: 1.55rem;
+    }
+
+    .nav-links li:nth-child(1) {
+        transition: all 0.5s ease 0.2s;
+        -webkit-transition: all 0.5s ease 0.2s;
+        -moz-transition: all 0.5s ease 0.2s;
+        -ms-transition: all 0.5s ease 0.2s;
+        -o-transition: all 0.5s ease 0.2s;
+    }
+
+    .nav-links li:nth-child(2) {
+        transition: all 0.5s ease 0.3s;
+        -webkit-transition: all 0.5s ease 0.3s;
+        -moz-transition: all 0.5s ease 0.3s;
+        -ms-transition: all 0.5s ease 0.3s;
+        -o-transition: all 0.5s ease 0.3s;
+    }
+
+    .nav-links li:nth-child(3) {
+        transition: all 0.5s ease 0.4s;
+        -webkit-transition: all 0.5s ease 0.4s;
+        -moz-transition: all 0.5s ease 0.4s;
+        -ms-transition: all 0.5s ease 0.4s;
+        -o-transition: all 0.5s ease 0.4s;
+    }
+
+    .nav-links li:nth-child(4) {
+        transition: all 0.5s ease 0.5s;
+        -webkit-transition: all 0.5s ease 0.5s;
+        -moz-transition: all 0.5s ease 0.5s;
+        -ms-transition: all 0.5s ease 0.5s;
+        -o-transition: all 0.5s ease 0.5s;
+    }
+
+    .nav-links li:nth-child(5) {
+        transition: all 0.5s ease 0.6s;
+        -webkit-transition: all 0.5s ease 0.6s;
+        -moz-transition: all 0.5s ease 0.6s;
+        -ms-transition: all 0.5s ease 0.6s;
+        -o-transition: all 0.5s ease 0.6s;
+    }
+
+    .nav-links li:nth-child(6) {
+        transition: all 0.5s ease 0.7s;
+        -webkit-transition: all 0.5s ease 0.7s;
+        -moz-transition: all 0.5s ease 0.7s;
+        -ms-transition: all 0.5s ease 0.7s;
+        -o-transition: all 0.5s ease 0.7s;
+    }
+
+    li.show {
+        opacity: 1;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        border-radius: 5px;
+    }
+
+    /** Articles View **/
+
+    #articlePage {
+        padding: 0;
+    }
+
+    .article_wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(210px, auto));
+    }
+
+    #page {
+        grid-template-areas: "nav nav" "buttons buttons" "main main";
+        grid-template-rows: auto 10vh auto;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    /** MapView **/
+
+    .event_title {
+        display: none;
+    }
+
+    #eventForm .form-group input {
+        height: auto;
+    }
+
+    #mapid,
+    #mapid2 {
+        height: 45vh;
+    }
+
+    .form_wrapper {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-gap: 8px;
+        grid-template-areas:
+            "head head"
+            "nav  nav"
+            "main main"
+            "foot  foot";
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: 20px 1fr 1fr 30px;
+    }
+
+    .form_wrapper > .form_wrapper_tiny {
+        width: 100%;
+        padding: 0;
+    }
+
+    /** Post Section **/
+
+    #postWrapper {
+        display: grid;
+        width: 100%;
+        padding: 0;
+        grid-gap: 2px;
+        grid-template-areas: "article article" "comment info" "comment info";
+        grid-template-rows: 55vh 40vh;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .article_content {
+    }
+    .article_text {
+        padding: 8px;
+    }
+
+    .post_text {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .post_title_img_box {
+        margin: 9vh 0px 2vh 0px;
+    }
+
+    .post_title_date_box {
+        margin: 15px 0;
+    }
+
+    .post_title_date_box h2 {
+        font-size: 1.2rem;
+    }
+
+    .post_img {
+        max-height: 140px;
+    }
+
+    #postWrapper > .article {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    #postWrapper > .comment {
+        margin-top: 0;
+        height: auto;
+        padding: 10px;
+    }
+
+    .info-container {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    #commentHeader {
+        margin: 0 10px;
+    }
+
+    #commentForm textarea {
+        padding: 8px;
+    }
+
+    /** Footer **/
+
+    .main_wrapper {
+        margin-bottom: 95vh;
+        box-shadow: inherit;
+    }
+
+    #myFooter {
+        height: 95vh !important;
+    }
+
+    .footer_row_box {
+        padding: 0;
+        width: 100%;
+        padding: 5px 15px;
+    }
+
+    .footer_row {
+        padding: 5px 15px;
+    }
+
+    .footer_row_box:nth-child(1),
+    .footer_row_box:nth-child(2) {
+        width: 50%;
+    }
+
+    #formFooter {
+        width: 80%;
+    }
+
+    #socialFooterBox {
+        width: 90%;
+    }
+
+    #myFooter ul {
+        padding: 5px 0;
+    }
+
+    /** Tools **/
+
+    #pagination {
+        transform: translate(0%);
+        -webkit-transform: translate(0%);
+        -moz-transform: translate(0%);
+        -ms-transform: translate(0%);
+        -o-transform: translate(0%);
+    }
+
+    .pagination_slide_article {
+        display: none;
+    }
+
+    #messageTruckSection {
+        display: none;
+    }
+
+    .pagination span {
+        padding: 4px 6px;
+    }
+
+    .title_text {
+        font-size: 1.15rem;
+        width: 90%;
+    }
+
+    #annonceImg {
+        width: 110px;
+    }
+
+    #addImg,
+    #articleImg,
+    #activiteImg {
+        width: 100px;
+    }
+
+    .meteo_wrapper {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    #headerBtnBox {
+        display: none;
+    }
+
+    .banner h2 {
+        color: #fff;
+    }
+
+    .banner video {
+        object-fit: cover;
+    }
+    #postWrapper {
+        display: grid;
+        width: 100%;
+        padding: 0;
+        grid-gap: 12px;
+        grid-template-areas: "article article" "comment comment" "info info";
+        grid-template-rows: auto 35vh 30vh;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    #postWrapper > .article {
+        overflow: inherit;
+    }
+}

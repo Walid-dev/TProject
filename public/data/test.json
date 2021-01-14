@@ -1,0 +1,634 @@
+[
+    {
+        "Toronto_Transit_Commission": "Subway Station usage counts, 2017",
+        "UnnamedField1": "",
+        "UnnamedField2": "",
+        "UnnamedField3": "",
+        "UnnamedField4": "",
+        "UnnamedField5": ""
+    },
+    {
+        "Toronto_Transit_Commission": "Showing number of customers travelling to or from subway platforms",
+        "UnnamedField1": "",
+        "UnnamedField2": "",
+        "UnnamedField3": "",
+        "UnnamedField4": "",
+        "UnnamedField5": ""
+    },
+    {
+        "Toronto_Transit_Commission": "",
+        "UnnamedField1": "",
+        "UnnamedField2": "",
+        "UnnamedField3": "",
+        "UnnamedField4": "",
+        "UnnamedField5": ""
+    },
+    {
+        "Toronto_Transit_Commission": "Rank, Total, of 74",
+        "UnnamedField1": "Station",
+        "UnnamedField2": "Subway/RT Line",
+        "UnnamedField3": "To",
+        "UnnamedField4": "From",
+        "UnnamedField5": "Total"
+    },
+    {
+        "Toronto_Transit_Commission": "1",
+        "UnnamedField1": "BLOOR-YONGE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "93,924",
+        "UnnamedField4": "110,703",
+        "UnnamedField5": "204,627"
+    },
+    {
+        "Toronto_Transit_Commission": "2",
+        "UnnamedField1": "BLOOR-YONGE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "96,309",
+        "UnnamedField4": "100,155",
+        "UnnamedField5": "196,464"
+    },
+    {
+        "Toronto_Transit_Commission": "3",
+        "UnnamedField1": "UNION",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "67,881",
+        "UnnamedField4": "60,774",
+        "UnnamedField5": "128,655"
+    },
+    {
+        "Toronto_Transit_Commission": "4",
+        "UnnamedField1": "ST. GEORGE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "62,131",
+        "UnnamedField4": "64,797",
+        "UnnamedField5": "126,928"
+    },
+    {
+        "Toronto_Transit_Commission": "5",
+        "UnnamedField1": "ST. GEORGE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "62,668",
+        "UnnamedField4": "62,508",
+        "UnnamedField5": "125,176"
+    },
+    {
+        "Toronto_Transit_Commission": "6",
+        "UnnamedField1": "FINCH",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "43,356",
+        "UnnamedField4": "48,707",
+        "UnnamedField5": "92,063"
+    },
+    {
+        "Toronto_Transit_Commission": "7",
+        "UnnamedField1": "SHEPPARD-YONGE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "39,903",
+        "UnnamedField4": "39,812",
+        "UnnamedField5": "79,715"
+    },
+    {
+        "Toronto_Transit_Commission": "8",
+        "UnnamedField1": "DUNDAS",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "34,807",
+        "UnnamedField4": "38,756",
+        "UnnamedField5": "73,563"
+    },
+    {
+        "Toronto_Transit_Commission": "9",
+        "UnnamedField1": "KENNEDY",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "35,447",
+        "UnnamedField4": "36,934",
+        "UnnamedField5": "72,381"
+    },
+    {
+        "Toronto_Transit_Commission": "10",
+        "UnnamedField1": "EGLINTON",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "29,147",
+        "UnnamedField4": "39,377",
+        "UnnamedField5": "68,524"
+    },
+    {
+        "Toronto_Transit_Commission": "11",
+        "UnnamedField1": "KING",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "26,806",
+        "UnnamedField4": "33,689",
+        "UnnamedField5": "60,495"
+    },
+    {
+        "Toronto_Transit_Commission": "12",
+        "UnnamedField1": "ST. ANDREW",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "28,255",
+        "UnnamedField4": "29,222",
+        "UnnamedField5": "57,477"
+    },
+    {
+        "Toronto_Transit_Commission": "13",
+        "UnnamedField1": "KIPLING",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "24,433",
+        "UnnamedField4": "24,908",
+        "UnnamedField5": "49,341"
+    },
+    {
+        "Toronto_Transit_Commission": "14",
+        "UnnamedField1": "QUEEN",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "25,035",
+        "UnnamedField4": "23,666",
+        "UnnamedField5": "48,701"
+    },
+    {
+        "Toronto_Transit_Commission": "15",
+        "UnnamedField1": "QUEEN'S PARK",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "22,574",
+        "UnnamedField4": "23,891",
+        "UnnamedField5": "46,465"
+    },
+    {
+        "Toronto_Transit_Commission": "16",
+        "UnnamedField1": "SHEPPARD-YONGE",
+        "UnnamedField2": "4 Sheppard",
+        "UnnamedField3": "23,295",
+        "UnnamedField4": "22,451",
+        "UnnamedField5": "45,746"
+    },
+    {
+        "Toronto_Transit_Commission": "17",
+        "UnnamedField1": "COLLEGE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "19,121",
+        "UnnamedField4": "25,252",
+        "UnnamedField5": "44,373"
+    },
+    {
+        "Toronto_Transit_Commission": "18",
+        "UnnamedField1": "SHEPPARD WEST",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "21,555",
+        "UnnamedField4": "20,044",
+        "UnnamedField5": "41,599"
+    },
+    {
+        "Toronto_Transit_Commission": "19",
+        "UnnamedField1": "ISLINGTON",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "18,770",
+        "UnnamedField4": "20,480",
+        "UnnamedField5": "39,250"
+    },
+    {
+        "Toronto_Transit_Commission": "20",
+        "UnnamedField1": "DON MILLS",
+        "UnnamedField2": "4 Sheppard",
+        "UnnamedField3": "17,242",
+        "UnnamedField4": "19,803",
+        "UnnamedField5": "37,045"
+    },
+    {
+        "Toronto_Transit_Commission": "21",
+        "UnnamedField1": "ST. CLAIR",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "17,842",
+        "UnnamedField4": "18,781",
+        "UnnamedField5": "36,623"
+    },
+    {
+        "Toronto_Transit_Commission": "22",
+        "UnnamedField1": "BROADVIEW",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "16,818",
+        "UnnamedField4": "17,279",
+        "UnnamedField5": "34,096"
+    },
+    {
+        "Toronto_Transit_Commission": "23",
+        "UnnamedField1": "ST. PATRICK",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "16,430",
+        "UnnamedField4": "17,626",
+        "UnnamedField5": "34,056"
+    },
+    {
+        "Toronto_Transit_Commission": "24",
+        "UnnamedField1": "WARDEN",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "16,733",
+        "UnnamedField4": "16,409",
+        "UnnamedField5": "33,142"
+    },
+    {
+        "Toronto_Transit_Commission": "25",
+        "UnnamedField1": "BAY",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "14,984",
+        "UnnamedField4": "17,076",
+        "UnnamedField5": "32,060"
+    },
+    {
+        "Toronto_Transit_Commission": "26",
+        "UnnamedField1": "SPADINA",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "15,307",
+        "UnnamedField4": "16,635",
+        "UnnamedField5": "31,942"
+    },
+    {
+        "Toronto_Transit_Commission": "27",
+        "UnnamedField1": "KENNEDY",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "12,146",
+        "UnnamedField4": "18,974",
+        "UnnamedField5": "31,120"
+    },
+    {
+        "Toronto_Transit_Commission": "28",
+        "UnnamedField1": "VICTORIA PARK",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "13,944",
+        "UnnamedField4": "16,839",
+        "UnnamedField5": "30,783"
+    },
+    {
+        "Toronto_Transit_Commission": "29",
+        "UnnamedField1": "OSSINGTON",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "13,998",
+        "UnnamedField4": "16,102",
+        "UnnamedField5": "30,100"
+    },
+    {
+        "Toronto_Transit_Commission": "30",
+        "UnnamedField1": "DUNDAS WEST",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "12,723",
+        "UnnamedField4": "16,630",
+        "UnnamedField5": "29,353"
+    },
+    {
+        "Toronto_Transit_Commission": "31",
+        "UnnamedField1": "DUFFERIN",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "13,742",
+        "UnnamedField4": "14,876",
+        "UnnamedField5": "28,618"
+    },
+    {
+        "Toronto_Transit_Commission": "32",
+        "UnnamedField1": "YORK MILLS",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "14,335",
+        "UnnamedField4": "14,120",
+        "UnnamedField5": "28,455"
+    },
+    {
+        "Toronto_Transit_Commission": "33",
+        "UnnamedField1": "ST. CLAIR WEST",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "14,333",
+        "UnnamedField4": "13,649",
+        "UnnamedField5": "27,982"
+    },
+    {
+        "Toronto_Transit_Commission": "34",
+        "UnnamedField1": "PAPE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "13,226",
+        "UnnamedField4": "13,853",
+        "UnnamedField5": "27,079"
+    },
+    {
+        "Toronto_Transit_Commission": "35",
+        "UnnamedField1": "BATHURST",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "11,545",
+        "UnnamedField4": "15,358",
+        "UnnamedField5": "26,903"
+    },
+    {
+        "Toronto_Transit_Commission": "36",
+        "UnnamedField1": "SHERBOURNE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "12,985",
+        "UnnamedField4": "13,601",
+        "UnnamedField5": "26,586"
+    },
+    {
+        "Toronto_Transit_Commission": "37",
+        "UnnamedField1": "WILSON",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "15,605",
+        "UnnamedField4": "10,704",
+        "UnnamedField5": "26,309"
+    },
+    {
+        "Toronto_Transit_Commission": "38",
+        "UnnamedField1": "DAVISVILLE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "11,044",
+        "UnnamedField4": "14,950",
+        "UnnamedField5": "25,994"
+    },
+    {
+        "Toronto_Transit_Commission": "39",
+        "UnnamedField1": "LAWRENCE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "12,406",
+        "UnnamedField4": "13,426",
+        "UnnamedField5": "25,832"
+    },
+    {
+        "Toronto_Transit_Commission": "40",
+        "UnnamedField1": "NORTH YORK CENTRE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "12,789",
+        "UnnamedField4": "12,595",
+        "UnnamedField5": "25,384"
+    },
+    {
+        "Toronto_Transit_Commission": "41",
+        "UnnamedField1": "MAIN STREET",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "11,669",
+        "UnnamedField4": "12,277",
+        "UnnamedField5": "23,946"
+    },
+    {
+        "Toronto_Transit_Commission": "42",
+        "UnnamedField1": "OSGOODE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "11,201",
+        "UnnamedField4": "12,468",
+        "UnnamedField5": "23,669"
+    },
+    {
+        "Toronto_Transit_Commission": "43",
+        "UnnamedField1": "WELLESLEY",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "10,231",
+        "UnnamedField4": "13,282",
+        "UnnamedField5": "23,513"
+    },
+    {
+        "Toronto_Transit_Commission": "44",
+        "UnnamedField1": "SCARBOROUGH CTR.",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "10,057",
+        "UnnamedField4": "12,996",
+        "UnnamedField5": "23,053"
+    },
+    {
+        "Toronto_Transit_Commission": "45",
+        "UnnamedField1": "ROYAL YORK",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "10,835",
+        "UnnamedField4": "10,968",
+        "UnnamedField5": "21,803"
+    },
+    {
+        "Toronto_Transit_Commission": "46",
+        "UnnamedField1": "YORKDALE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "10,237",
+        "UnnamedField4": "11,315",
+        "UnnamedField5": "21,552"
+    },
+    {
+        "Toronto_Transit_Commission": "47",
+        "UnnamedField1": "EGLINTON WEST",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "10,730",
+        "UnnamedField4": "9,998",
+        "UnnamedField5": "20,728"
+    },
+    {
+        "Toronto_Transit_Commission": "48",
+        "UnnamedField1": "RUNNYMEDE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "9,533",
+        "UnnamedField4": "10,578",
+        "UnnamedField5": "20,111"
+    },
+    {
+        "Toronto_Transit_Commission": "49",
+        "UnnamedField1": "JANE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "10,121",
+        "UnnamedField4": "9,984",
+        "UnnamedField5": "20,105"
+    },
+    {
+        "Toronto_Transit_Commission": "50",
+        "UnnamedField1": "LAWRENCE WEST",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "9,074",
+        "UnnamedField4": "10,668",
+        "UnnamedField5": "19,742"
+    },
+    {
+        "Toronto_Transit_Commission": "51",
+        "UnnamedField1": "LANSDOWNE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "9,799",
+        "UnnamedField4": "9,197",
+        "UnnamedField5": "18,996"
+    },
+    {
+        "Toronto_Transit_Commission": "52",
+        "UnnamedField1": "KEELE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "8,611",
+        "UnnamedField4": "8,381",
+        "UnnamedField5": "16,992"
+    },
+    {
+        "Toronto_Transit_Commission": "53",
+        "UnnamedField1": "COXWELL",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "7,364",
+        "UnnamedField4": "8,120",
+        "UnnamedField5": "15,484"
+    },
+    {
+        "Toronto_Transit_Commission": "54",
+        "UnnamedField1": "WOODBINE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "6,864",
+        "UnnamedField4": "8,100",
+        "UnnamedField5": "14,964"
+    },
+    {
+        "Toronto_Transit_Commission": "55",
+        "UnnamedField1": "SPADINA",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "5,918",
+        "UnnamedField4": "6,698",
+        "UnnamedField5": "12,616"
+    },
+    {
+        "Toronto_Transit_Commission": "56",
+        "UnnamedField1": "CHRISTIE",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "6,210",
+        "UnnamedField4": "6,301",
+        "UnnamedField5": "12,511"
+    },
+    {
+        "Toronto_Transit_Commission": "57",
+        "UnnamedField1": "HIGH PARK",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "6,359",
+        "UnnamedField4": "5,716",
+        "UnnamedField5": "12,075"
+    },
+    {
+        "Toronto_Transit_Commission": "58",
+        "UnnamedField1": "MUSEUM",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "5,363",
+        "UnnamedField4": "6,473",
+        "UnnamedField5": "11,836"
+    },
+    {
+        "Toronto_Transit_Commission": "59",
+        "UnnamedField1": "DONLANDS",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "6,027",
+        "UnnamedField4": "5,218",
+        "UnnamedField5": "11,245"
+    },
+    {
+        "Toronto_Transit_Commission": "60",
+        "UnnamedField1": "GREENWOOD",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "5,253",
+        "UnnamedField4": "5,828",
+        "UnnamedField5": "11,081"
+    },
+    {
+        "Toronto_Transit_Commission": "61",
+        "UnnamedField1": "CASTLE FRANK",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "4,193",
+        "UnnamedField4": "4,697",
+        "UnnamedField5": "8,890"
+    },
+    {
+        "Toronto_Transit_Commission": "62",
+        "UnnamedField1": "BAYVIEW",
+        "UnnamedField2": "4 Sheppard",
+        "UnnamedField3": "4,149",
+        "UnnamedField4": "4,382",
+        "UnnamedField5": "8,531"
+    },
+    {
+        "Toronto_Transit_Commission": "63",
+        "UnnamedField1": "DUPONT",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "4,141",
+        "UnnamedField4": "4,357",
+        "UnnamedField5": "8,498"
+    },
+    {
+        "Toronto_Transit_Commission": "64",
+        "UnnamedField1": "LAWRENCE EAST",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "4,304",
+        "UnnamedField4": "3,625",
+        "UnnamedField5": "7,929"
+    },
+    {
+        "Toronto_Transit_Commission": "65",
+        "UnnamedField1": "ROSEDALE",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "3,738",
+        "UnnamedField4": "4,028",
+        "UnnamedField5": "7,766"
+    },
+    {
+        "Toronto_Transit_Commission": "66",
+        "UnnamedField1": "OLD MILL",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "3,984",
+        "UnnamedField4": "3,768",
+        "UnnamedField5": "7,752"
+    },
+    {
+        "Toronto_Transit_Commission": "67",
+        "UnnamedField1": "GLENCAIRN",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "3,457",
+        "UnnamedField4": "3,161",
+        "UnnamedField5": "6,618"
+    },
+    {
+        "Toronto_Transit_Commission": "68",
+        "UnnamedField1": "LESLIE",
+        "UnnamedField2": "4 Sheppard",
+        "UnnamedField3": "2,989",
+        "UnnamedField4": "3,000",
+        "UnnamedField5": "5,989"
+    },
+    {
+        "Toronto_Transit_Commission": "69",
+        "UnnamedField1": "CHESTER",
+        "UnnamedField2": "2 Bloor-Danforth",
+        "UnnamedField3": "2,726",
+        "UnnamedField4": "3,078",
+        "UnnamedField5": "5,804"
+    },
+    {
+        "Toronto_Transit_Commission": "70",
+        "UnnamedField1": "SUMMERHILL",
+        "UnnamedField2": "1 Yonge-University",
+        "UnnamedField3": "2,773",
+        "UnnamedField4": "2,940",
+        "UnnamedField5": "5,713"
+    },
+    {
+        "Toronto_Transit_Commission": "71",
+        "UnnamedField1": "McCOWAN",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "2,572",
+        "UnnamedField4": "1,289",
+        "UnnamedField5": "3,861"
+    },
+    {
+        "Toronto_Transit_Commission": "72",
+        "UnnamedField1": "BESSARION",
+        "UnnamedField2": "4 Sheppard",
+        "UnnamedField3": "1,512",
+        "UnnamedField4": "1,476",
+        "UnnamedField5": "2,988"
+    },
+    {
+        "Toronto_Transit_Commission": "73",
+        "UnnamedField1": "MIDLAND",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "1,338",
+        "UnnamedField4": "1,100",
+        "UnnamedField5": "2,438"
+    },
+    {
+        "Toronto_Transit_Commission": "74",
+        "UnnamedField1": "ELLESMERE",
+        "UnnamedField2": "3 Scarborough",
+        "UnnamedField3": "1,086",
+        "UnnamedField4": "684",
+        "UnnamedField5": "1,770"
+    },
+    {
+        "Toronto_Transit_Commission": "",
+        "UnnamedField1": "Totals",
+        "UnnamedField2": "",
+        "UnnamedField3": "1,290,012",
+        "UnnamedField4": "1,381,563",
+        "UnnamedField5": "2,671,574"
+    }
+]
